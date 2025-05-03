@@ -28,6 +28,15 @@ img {
     height: auto;
 }
 
+.flatpickr-input:hover {
+	border: 1px solid #000;
+}
+
+.flatpickr-input:disabled {
+    background-color: #fafafa;
+    color: #808080;
+}
+
 .input-btn {
     display: flex;
     align-items: flex-start;
@@ -41,9 +50,8 @@ img {
 }
 
 .input-btn button {
-    border-radius: 8p ;
-    padding:
-    8px 16px;
+    border-radius: 8px ;
+    padding: 8px 16px;
     width: 75px;
     height: 40px;
     font-family: "Montserrat", sans-serif;
@@ -51,10 +59,18 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #989898;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #4e75ff;
+}
+
+.input-btn button:hover {
+    background: #6c8cff;
+}
+
+.input-btn button:disabled {
     background: #cfcfcf;
 }
 
