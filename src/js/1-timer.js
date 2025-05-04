@@ -1,6 +1,23 @@
 'use strict';
 import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
+import iziToast from "izitoast";
+import "izitoast/dist/css/iziToast.min.css";
+
+const iziToastOptions = {
+	message: "Please choose a date in the future",
+	icon: 'material-icons',
+	iconText: 'highlight_off',
+	iconColor: '#fff',
+	backgroundColor: '#ef4040',
+	messageColor: '#fff',
+	messageSize: '16px', 
+	maxWidth: '302px', 
+	close: false,
+	position: 'topRight',
+	progressBar: false,
+	layout: 2,
+}
 
 const options = {
     enableTime: true,
@@ -11,7 +28,7 @@ const options = {
         const curDate = new Date();
 
         if (selectedDates[0].getTime() < curDate.getTime() ) {
-            window.alert("Please choose a date in the future");
+            iziToast.show(iziToastOptions);
             startBtnElem.disabled = true;
         } else {
         	userSelectedDate = selectedDates[0].getTime();
@@ -69,7 +86,6 @@ function countDown (fromDate) {
     	updateTimerDisplay(current);
         clearInterval(countDownIntervalId);
     	datePickerElem.disabled = false;
-    	startBtnElem.disabled = false;
     }
 }
 
