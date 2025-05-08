@@ -143,6 +143,7 @@ img {
     font-family: "Montserrat", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    margin-bottom: 16px;
 }
 
 .form-label input {
@@ -152,10 +153,42 @@ img {
     height: 40px;
 }
 
-fieldset {
+.form-label input:hover {
+    border-color: #000;
+}
+
+.form-label input:hover {
+    border-color: #4e75ff;
+}
+
+.form button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 8px 16px;
     width: 360px;
-    height: 78px;
-    padding: 0;
+    height: 40px;
+    background: #4e75ff;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-top: 24px;
+}
+
+.form button:hover {
+    background: #6c8cff;
+}
+
+fieldset {
+    width: 340px;
+    height: 74px;
+    padding: 0 0 0 20px;
+}
+
+fieldset:hover {
+    border-color: #000;
 }
 
 .radio-block {
@@ -166,6 +199,9 @@ fieldset {
     gap: 48px;
     width: 264px;
     height: 32px;
+    margin-left: 25px;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
 .radio {
