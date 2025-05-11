@@ -5,217 +5,215 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+  margin: 0;
 }
 p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 a {
-    color: currentColor;
-    text-decoration: none;
+  color: currentColor;
+  text-decoration: none;
 }
 button {
-      cursor: pointer;
+  cursor: pointer;
 }
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .flatpickr-input:hover {
-	border: 1px solid #000;
+  border: 1px solid #000;
 }
 
 .flatpickr-input:disabled {
-    background-color: #fafafa;
-    color: #808080;
+  background-color: #fafafa;
+  color: #808080;
 }
 
 .input-btn {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap:
-    8px;
-    width: 355px;
-    height: 40px;
-    margin-bottom: 32px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+  width: 355px;
+  height: 40px;
+  margin-bottom: 32px;
 }
 
 .input-btn button {
-    border-radius: 8px ;
-    padding: 8px 16px;
-    width: 75px;
-    height: 40px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4e75ff;
 }
 
 .input-btn button:hover {
-    background: #6c8cff;
+  background: #6c8cff;
 }
 
 .input-btn button:disabled {
-    background: #cfcfcf;
+  background: #cfcfcf;
 }
 
 .input-btn input {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 8px;
-    width: 272px;
-    height: 40px;
-    border-radius: 4px;
-    width: 272px;
-    height: 40px;
-    background: #fff;
-    border: 1px solid #808080;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #2e2f42;
-    font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+  width: 272px;
+  height: 40px;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #808080;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .timer {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    gap:
-    24px;
-    width: 346px;
-    height: 72px;
-    margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 24px;
+  width: 346px;
+  height: 72px;
+  margin-bottom: 50px;
 }
 
 .field {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 55px;
-    height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 55px;
+  height: 72px;
 }
 
 .value {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.2;
-    letter-spacing: 0.04em;
-    color: #2e2f42;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
 
 .label {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #2e2f42;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
 }
 
 .form-label {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 8px;
-    width: 360px;
-    height: 72px;
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    margin-bottom: 16px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 72px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
 }
 
 .form-label input {
-    border: 1px solid #808080;
-    border-radius: 4px;
-    width: 360px;
-    height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
 }
 
 .form-label input:hover {
-    border-color: #000;
+  border-color: #000;
 }
 
 .form-label input:hover {
-    border-color: #4e75ff;
+  border-color: #4e75ff;
 }
 
 .form button {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    padding: 8px 16px;
-    width: 360px;
-    height: 40px;
-    background: #4e75ff;
-    font-size: 16px;
-    letter-spacing: 0.04em;
-    color: #fff;
-    margin-top: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 24px;
 }
 
 .form button:hover {
-    background: #6c8cff;
+  background: #6c8cff;
 }
 
 fieldset {
-    width: 340px;
-    height: 74px;
-    padding: 0 0 0 20px;
+  width: 340px;
+  height: 74px;
+  padding: 0 0 0 20px;
 }
 
 fieldset:hover {
-    border-color: #000;
+  border-color: #000;
 }
 
 .radio-block {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 48px;
-    width: 264px;
-    height: 32px;
-    margin-left: 25px;
-    margin-right: auto;
-    margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 48px;
+  width: 264px;
+  height: 32px;
+  margin-left: 25px;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
 .radio {
-	display: flex;
-	gap: 8px;
-	display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
+  display: flex;
+  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 .radio-input {
-    border: 1px solid #757575;
-    border-radius: 14px;
-    width: 20px;
-    height: 20px;
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
 }
