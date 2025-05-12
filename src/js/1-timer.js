@@ -78,7 +78,7 @@ function countDownStart(evnt) {
 function countDown(fromDate) {
   const diff = fromDate - new Date().getTime();
   const current = convertMs(diff);
-  if (current.seconds !== 0) {
+  if (diff > 1000) {
     updateTimerDisplay(current);
   } else {
     updateTimerDisplay(current);
